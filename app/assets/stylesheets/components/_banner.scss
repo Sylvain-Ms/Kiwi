@@ -1,0 +1,41 @@
+.banner {
+  border: 8px;
+  text-align: center;
+  height: 200px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc7-mBJIOHxxAZTkxuFNqBuAa4HEi7pJM5Lw&usqp=CAU);
+}
+
+.banner h1{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+
+.banner button{
+  background: $green;
+  border-radius: 30px;
+  border: 6px solid green;
+  text-decoration: bold;
+  // animation: 2s kiwi infinite;
+}
+
+@keyframes kiwi {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    color: red
+  }
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+    color: blue
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    color: purple
+  }
+
+}
