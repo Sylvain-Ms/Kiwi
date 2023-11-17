@@ -36,6 +36,7 @@
 //   min-height : 800px;
 // }
 
+
 .container {
   position : relative;
   width : 1100px;
@@ -74,6 +75,7 @@
   left: 8px;
   box-shadow : 0 5px 20px rgba(0,0,0,0.2);
   z-index : 1;
+
 }
 
 .container .card .image img {
@@ -101,5 +103,4 @@
    visibility : visible;
    opacity : 1;
    transition-delay: 0.2s;
-
 }
